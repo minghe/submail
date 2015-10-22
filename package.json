@@ -1,0 +1,26 @@
+{
+  "name": "submail",
+  "version": "0.0.1",
+  "description": "submail 的客户端，用于submail发送邮件",
+  "scripts": {
+        "test": "mocha"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minghe/submail.git"
+  },
+  "keywords": [
+    "submail",
+    "mail"
+  ],
+  "author": {
+    "name": "minghe",
+    "email": "minghe36@126.com"
+  },
+  "dependencies": {
+    "request":"*",
+    "crypto":"*"
+  },
+  "readmeFilename": "README.md"
+}
