@@ -128,8 +128,8 @@ function MailXSend(config) {
         }
         return params;
     };
+    var mail = new Mail(config);
     this.send = function() {
-        var mail = new Mail(config);
         return mail.send(this.build_params());
     }
 };
